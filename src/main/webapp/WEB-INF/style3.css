@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* Style pour le titre h1 */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Style pour le sous-titre h2 */
+h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Style pour les boutons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Style pour les liens */
+a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+/* Style pour le formulaire de suppression */
+form {
+  margin-top: 2rem;
+}
+
+/* Style pour les étiquettes de formulaire */
+label {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+/* Style pour le champ de saisie de formulaire */
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #ccc;
+}
+
+/* Style pour les éléments de liste */
+ul {
+  list-style: none;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+
+/* Style pour les éléments de liste */
+li {
+  margin-bottom: 1rem;
+}
+
+/* Style pour les messages d'erreur */
+.error {
+  color: red;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+input[type="submit"] {
+  background-color: #f44336;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #e53935;
+}

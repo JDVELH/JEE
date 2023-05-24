@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn button {
+  padding: 16px 32px;
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+  background-color: #0000a0;
+}

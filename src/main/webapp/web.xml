@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+ <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>pak.servlets.LoginServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>LivreServlet</servlet-name>
+    <servlet-class>pak.servlets.LivreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LivreServlet</servlet-name>
+    <url-pattern>/Livre</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>PageServlet</servlet-name>
+    <servlet-class>pak.servlets.PageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PageServlet</servlet-name>
+    <url-pattern>/PageServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>pak.servlets.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ChoixServlet</servlet-name>
+    <servlet-class>pak.servlets.ChoixServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChoixServlet</servlet-name>
+    <url-pattern>/Choix</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SuccesseurServlet</servlet-name>
+    <servlet-class>pak.servlets.SuccesseurServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SuccesseurServlet</servlet-name>
+    <url-pattern>/SuccesseurServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
